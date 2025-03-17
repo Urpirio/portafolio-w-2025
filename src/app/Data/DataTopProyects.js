@@ -98,44 +98,44 @@ const DataTopProyects = [
         Descripcion: '',
 
     },
-    {
-        Img: [
-            {
-                D: Urpspace,
-            },
-            {
-                D: '',
-            }
-        ],
-        NameP: 'Urpspace',
-        Descripcion: '',
+    // {
+    //     Img: [
+    //         {
+    //             D: Urpspace,
+    //         },
+    //         {
+    //             D: '',
+    //         }
+    //     ],
+    //     NameP: 'Urpspace',
+    //     Descripcion: '',
 
-    },
-    {
-        Img: [
-            {
-                D: ListWeb2,
-            },
-            {
-                D: ListWeb,
-            }
-        ],
-        NameP: 'List Web (In development)',
-        Descripcion: '',
+    // },
+    // {
+    //     Img: [
+    //         {
+    //             D: ListWeb2,
+    //         },
+    //         {
+    //             D: ListWeb,
+    //         }
+    //     ],
+    //     NameP: 'List Web (In development)',
+    //     Descripcion: '',
 
-    },
-    {
-        Img: [
-            {
-                D: FirstPortafolio,
-            },
-            {
-                D: FirstPortafolio2,
-            }
-        ],
-        NameP: 'First portfolio',
-        Descripcion: '',
+    // },
+    // {
+    //     Img: [
+    //         {
+    //             D: FirstPortafolio,
+    //         },
+    //         {
+    //             D: FirstPortafolio2,
+    //         }
+    //     ],
+    //     NameP: 'First portfolio',
+    //     Descripcion: '',
 
-    },
+    // },
 ];
 export default DataTopProyects;
