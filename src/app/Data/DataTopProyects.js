@@ -31,6 +31,7 @@ const DataTopProyects = [
         ],
         NameP: 'Dragon Finder',
         Descripcion: '',
+        Link: 'https://dragon-finder.vercel.app/',
 
     },
     {
@@ -44,6 +45,7 @@ const DataTopProyects = [
         ],
         NameP: 'Clon Instagram (In development)',
         Descripcion: '',
+        Link: 'https://clon-instagram.vercel.app/',
 
     },
     {
@@ -57,6 +59,7 @@ const DataTopProyects = [
         ],
         NameP: 'Gob.do',
         Descripcion: '',
+        Link: 'https://github.com/SemilleroDigitalIntro/Proyecto-Ogtic',
 
     },
     {
@@ -70,6 +73,7 @@ const DataTopProyects = [
         ],
         NameP: 'Portafolio-Web-2024',
         Descripcion: '',
+        Link: 'https://portafolio-web1.vercel.app/',
 
     },
     {
@@ -83,6 +87,7 @@ const DataTopProyects = [
         ],
         NameP: 'Travel Page',
         Descripcion: '',
+        Link: 'https://travels-web-eight.vercel.app/',
 
     },
     {
@@ -96,46 +101,7 @@ const DataTopProyects = [
         ],
         NameP: 'Urpsoft',
         Descripcion: '',
-
+        Link: 'https://urpirio.github.io/UrpSoft-2.0/',
     },
-    // {
-    //     Img: [
-    //         {
-    //             D: Urpspace,
-    //         },
-    //         {
-    //             D: '',
-    //         }
-    //     ],
-    //     NameP: 'Urpspace',
-    //     Descripcion: '',
-
-    // },
-    // {
-    //     Img: [
-    //         {
-    //             D: ListWeb2,
-    //         },
-    //         {
-    //             D: ListWeb,
-    //         }
-    //     ],
-    //     NameP: 'List Web (In development)',
-    //     Descripcion: '',
-
-    // },
-    // {
-    //     Img: [
-    //         {
-    //             D: FirstPortafolio,
-    //         },
-    //         {
-    //             D: FirstPortafolio2,
-    //         }
-    //     ],
-    //     NameP: 'First portfolio',
-    //     Descripcion: '',
-
-    // },
 ];
 export default DataTopProyects;
