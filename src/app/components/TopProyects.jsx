@@ -14,7 +14,7 @@ export default function TopProyects() {
     });
 
   return (
-    <div className='flex flex-col items-center  gap-10 p-5'>
+    <div className='flex flex-col items-center  gap-10 p-1 sm:p-5 '>
         <div className='flex flex-wrap justify-center gap-5 w-[90%]'>
         {TopListProyects}
         </div>
