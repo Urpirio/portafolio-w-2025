@@ -5,9 +5,9 @@ export default function Cproyects(props) {
   return (
     <article className='flex flex-col gap-2 shadow-xl border-2 border-gray-300 rounded-xl' id={props.id}>
         <div className=''>
-            <Image src={props.img} className='h-50 w-100 border-b-1 border-gray-200 rounded-t-xl'/>
+            <Image src={props.img} className='h-40 w-[100%] sm:w-100 sm:h-50 border-b-1 border-gray-200 rounded-t-xl'/>
         </div>
-        <div className='p-4'>
+        <div className='p-2'>
             <h2 className='font-bold'>{props.NameP}</h2>
             <p className='text-[14px] text-gray-500'>{props.Description}</p>
         </div>
