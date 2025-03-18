@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root{
+    scroll-behavior: smooth;
+}
+
 @keyframes Charge1 {
     from{
         width: 0%;
