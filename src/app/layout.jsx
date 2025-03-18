@@ -6,7 +6,7 @@ import Logo from '../../public/LogoPortafolio.png';
 import HoverNav from './func/HoverNav';
 import HoverNav2 from './func/HoverNav2';
 import HoverNav3 from './func/HoverNav3';
-// import HoverNav4 from './func/HoverNav4';
+import HoverNav4 from './func/HoverNav4';
 import LinkLinkedin from './func/LinkLinkedin';
 import LinkInstagram from './func/LinkInstagram';
 import LinkGithud from './func/LinkGithud';
@@ -34,7 +34,7 @@ export default function Layout({children}) {
     <body>
       <header className='flex items-center justify-between pr-3 pl-3 h-15   bg-white border-1 border-gray-100 shadow-green-50 shadow-2xl sticky  top-[0] z-3'>
         <div onClick={LinkHome} className='flex justify-center items-center cursor-pointer'>
-          <Image src={Logo} className='h-10 w-10'/>
+          <Image src={Logo} alt='logo' className='h-10 w-10'/>
           <h1 className='font-bold text-2xl'>Dev</h1>
         </div>
         <nav className='items-center hidden justify-center gap-5 ml-5  text-[17px] sm:flex '>
@@ -51,10 +51,10 @@ export default function Layout({children}) {
             Proyects
             <div className='h-1' id='HoverProyects'></div>
           </div>
-          {/* <div onMouseEnter={HoverNav4} onMouseLeave={HoverNav4} className='cursor-pointer transition-all duration-300 hover:text-green-500'>
-            Contacts
+          <div onMouseEnter={HoverNav4} onMouseLeave={HoverNav4} className='cursor-pointer transition-all duration-300 hover:text-green-500'>
+            Service
             <div className='h-1' id='HoverContact'></div>
-          </div> */}
+          </div>
         </nav>
         <div className=''>
           <button onClick={()=>{LinkContact(pathBoleano)}} className=' flex h-10 p-5  border-1 justify-center items-center rounded-2xl shadow-2xl shadow-green-200 bg-green-400 text-white font-bold cursor-pointer hover:opacity-75 '>Contact</button>

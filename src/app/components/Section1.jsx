@@ -22,7 +22,7 @@ export default function Section1() {
             <i onClick={LinkInstagram} className='bx bxl-instagram-alt text-5xl text-green-500 cursor-pointer transform-all duration-300 hover:opacity-75' ></i>
         </div>
     <div className='w-[100%] flex justify-center items-center'>
-        <Image src={PerfilDev} className='h-80 min-w-80 w-[100%] max-w-80 rounded-[100%] '/>
+        <Image src={PerfilDev} alt='Foto del Desarrollador' className='h-80 min-w-80 w-[100%] max-w-80 rounded-[100%] '/>
     </div>
     <div className='flex flex-col items-center w-[100%] gap-2'>
       <h1 className=' font-extrabold text-4xl sm:text-5xl text-center'>Hey, I'm  Urpirio Junior</h1>
