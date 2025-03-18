@@ -11,7 +11,7 @@ export default function AboutmeP2() {
     })
 
   return (
-    <section className='flex flex-wrap items-center sm:justify-around  '>
+    <section className='flex flex-wrap  sm:justify-around  '>
         <div className='flex flex-col  min-w-90 w-[40%] max-w-180 p-5 '>
             <div className='mb-5'>
                 <h2 className='font-bold text-2xl m-0'>Get to Know me!</h2>
