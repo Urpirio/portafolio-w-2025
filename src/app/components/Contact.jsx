@@ -9,10 +9,10 @@ export default function Contact() {
                 <div className='h-1.5 w-7 bg-green-500 rounded-2xl'></div>
             </div>
             <div>
-                <span className='text-[20px]'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
+                <span className='flex text-[20px] text-center'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
             </div>
         </div>
-        <div className='flex flex-wrap justify-around items-center w-[100%] sm: gap-10'>
+        <div className='flex flex-wrap justify-center items-center sm:justify-around w-[100%] gap-10'>
             <form action="" className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl'>
                 <div>
                     <h2 className='text-[25px] font-semibold text-green-900'>Send me a message</h2>
