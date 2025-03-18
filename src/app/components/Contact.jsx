@@ -1,8 +1,11 @@
-import React from 'react'
+'use client';
+
+import React from 'react';
+import LinkMyContact from '../func/LinkMyContact';
 
 export default function Contact() {
   return (
-    <section className='flex flex-col gap-10 p-10'>
+    <section className='flex flex-col gap-10 p-10' id='Contact'>
         <div className='flex flex-col items-center justify-center'>
             <div className='flex flex-col items-center gap-2'>
                 <h2 className='text-4xl'>Contact</h2>
@@ -22,6 +25,14 @@ export default function Contact() {
                     <input className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md' type="text" placeholder='Your name' required/>
                 </div>
                 <div className='flex flex-col'>
+                    <label htmlFor="">Email</label>
+                    <input className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md' type="email" placeholder='Your email' required/>
+                </div>
+                <div className='flex flex-col'>
+                    <label htmlFor="">Phone number</label>
+                    <input className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md' type="number" placeholder='Your number' required/>
+                </div>
+                <div className='flex flex-col'>
                     <label htmlFor="">Company</label>
                     <input className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md' type="text" placeholder='Name of your company' required/>
                 </div>
@@ -34,13 +45,13 @@ export default function Contact() {
                 </div>
             </form>
             <div className='flex flex-col justify-center border-2 border-green-500 shadow-2xl bg-white rounded-2xl p-5 gap-10'>
-                <div className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
+                <div onClick={()=>{LinkMyContact(false)}} className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
                     <i className='bx bxl-whatsapp  text-5xl text-white rounded-[100%] h-14 w-14 bg-green-400' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}></i>
-                    <span className=' text-[18px] text-green-500 font-semibold'>+1(829)-586-2316</span>
+                    <span  className=' text-[18px] text-green-500 font-semibold'>+1(829)-586-2316</span>
                 </div>
-                <div className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
+                <div onClick={()=>{LinkMyContact(true)}} className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
                     <i className='bx bxs-envelope text-green-500 text-5xl' ></i>
-                    <span className='text-green-500 text-[18px] font-semibold'>Urpiriojunior@gmail.com</span>
+                    <span  className='text-green-500 text-[18px] font-semibold'>Urpiriojunior@gmail.com</span>
                 </div>
             </div>
         </div>
