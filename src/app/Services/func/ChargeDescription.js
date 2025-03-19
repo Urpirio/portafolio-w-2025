@@ -17,7 +17,6 @@ const ChargeDescription = () => {
                         IconCheck.style.color = 'gray';
                         const SpanG = document.createElement('span');
                         SpanG.style.display = 'flex';
-                        // SpanG.style.alignItems = 'start';
                         SpanG.append(IconCheck,Span)
                         Container.append(SpanG);
                     };
@@ -33,7 +32,6 @@ const ChargeDescription = () => {
                         IconCheck.style.color = 'gray';
                         const SpanG = document.createElement('span');
                         SpanG.style.display = 'flex';
-                        // SpanG.style.alignItems = 'start';
                         SpanG.append(IconCheck,Span)
                         Container.append(SpanG);
                     };
@@ -49,7 +47,6 @@ const ChargeDescription = () => {
                         IconCheck.style.color = 'gray';
                         const SpanG = document.createElement('span');
                         SpanG.style.display = 'flex';
-                        // SpanG.style.alignItems = 'start';
                         SpanG.append(IconCheck,Span)
                         Container.append(SpanG);
                     };
