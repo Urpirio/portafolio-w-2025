@@ -65,15 +65,16 @@ export default function Layout({children}) {
           </div>
 
           <div onMouseEnter={HoverNav4} onMouseLeave={HoverNav4} onClick={LinkServices} className={`cursor-pointer transition-all duration-300 hover:text-green-500 ${pathBoleano === '/Services' ? 'text-green-500' : '' }`}>
-            Service
+            Services
             <div className='h-1' id='HoverContact'></div>
           </div>
-          
+
         </nav>
         <div className=''>
           <button onClick={()=>{LinkContact(pathBoleano)}} className=' flex h-10 p-5  border-1 justify-center items-center rounded-2xl shadow-2xl shadow-green-200 bg-green-400 text-white font-bold cursor-pointer hover:opacity-75 '>Contact</button>
         </div>
       </header>
+      
         {children}
         <footer className='flex flex-col ' >
           <section className='flex pb-5 pt-5 gap-5  sm:p-5  justify-around bg-gray-900 flex-wrap'>
