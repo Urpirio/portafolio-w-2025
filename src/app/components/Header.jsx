@@ -32,23 +32,30 @@ export default function Header() {
             </div>
             <nav className='items-center hidden justify-center gap-5 ml-5  text-[17px] sm:flex '>
           
-                <div onMouseEnter={HoverNav} onMouseLeave={HoverNav} onClick={LinkHome} className={`cursor-pointer transition-all duration-300 hover:text-green-500 ${pathBoleano === '/' ? 'text-green-500' : ''} `} >
+                <div onMouseEnter={HoverNav} onMouseLeave={HoverNav} onClick={LinkHome} 
+                    className={`cursor-pointer transition-all duration-300 hover:text-green-500 
+                    ${pathBoleano === '/' ? 'text-green-500' : ''} `} >
                     Home
                     <div className='h-1' id='HoverHome'></div>
                 </div>
 
-                <div onMouseEnter={HoverNav2} onMouseLeave={HoverNav2} onClick={()=>{LinkAboutMe(pathBoleano)}} className='cursor-pointer transition-all duration-300 hover:text-green-500'>
+                <div onMouseEnter={HoverNav2} onMouseLeave={HoverNav2} onClick={()=>{LinkAboutMe(pathBoleano)}} 
+                    className='cursor-pointer transition-all duration-300 hover:text-green-500'>
                     About
                     <div className='h-1 transition-all duration-300' id='HoverAbout'></div>
                 </div>
 
-                <div onMouseEnter={HoverNav3} onMouseLeave={HoverNav3} onClick={()=>{Linkproyect(true)}} 
-                className={`cursor-pointer transition-all duration-300 hover:text-green-500 ${pathBoleano === '/proyect' ? 'text-green-500' : ''}`}>
+                <div onMouseEnter={HoverNav3} onMouseLeave={HoverNav3} onClick={()=>{Linkproyect(true,pathBoleano)}} 
+                    className={`cursor-pointer transition-all duration-300 hover:text-green-500 
+                    ${pathBoleano === '/proyect' ? 'text-green-500' : 
+                    pathBoleano ==='/proyect/page2' ? 'text-green-500' : '' }`}>
                     Proyects
                     <div className='h-1' id='HoverProyects'></div>
                 </div>
 
-                <div onMouseEnter={HoverNav4} onMouseLeave={HoverNav4} onClick={LinkServices} className={`cursor-pointer transition-all duration-300 hover:text-green-500 ${pathBoleano === '/Services' ? 'text-green-500' : '' }`}>
+                <div onMouseEnter={HoverNav4} onMouseLeave={HoverNav4} onClick={LinkServices} 
+                className={`cursor-pointer transition-all duration-300 hover:text-green-500 
+                ${pathBoleano === '/Services' ? 'text-green-500' : '' }`}>
                     Services
                     <div className='h-1' id='HoverContact'></div>
                 </div>
