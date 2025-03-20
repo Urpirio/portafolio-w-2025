@@ -4,6 +4,7 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import Deploymenu from './func/Deploymenu';
+import LinkContact from '@/app/func/LinkContact';
 
 export default function ContactAndMenu() {
     const pathBoleano = usePathname();
