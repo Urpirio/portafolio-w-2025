@@ -1,9 +1,13 @@
 'use client';
-const Linkproyect = (Pro) => {
+const Linkproyect = (Pro,Path) => {
     if(Pro == false){
         window.location.href = '#TopProyect';
     }else{
-        window.location.href = '/proyect'
+        if(Path === '/proyect/page2'){
+            window.location.href = Path;
+        }else{
+            window.location.href = '/proyect';
+        };
     }
 };
 export default Linkproyect;
