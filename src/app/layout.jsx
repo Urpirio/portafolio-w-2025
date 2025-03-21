@@ -27,7 +27,7 @@ export default function Layout({children}) {
         to build scalable, efficient applications with great user experiences. Explore my projects and 
         get in touch to collaborate." />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
-        <link rel="shortcut icon" href={Logo} type="image/x-icon" />
+        {/* <link rel="icon" href={Logo} type="image/x-icon" /> */}
         <title>UrpirioDev</title>
     </head>
     <body onLoad={pathBoleano === '/Services' ? ChargeDescription : console.log('no es servicios') }>
