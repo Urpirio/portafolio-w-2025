@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import DataProyects from '../Data/DataProyects';
-import Cproyects from './Subcomponents/Cproyects';
+import SubCardProyect from './Subcomponents/SubCardProyect';
 import { usePathname } from 'next/navigation';
 import DataProyects2 from '../Data/DataProyects2';
 
@@ -12,22 +12,26 @@ export default function CardProyects() {
 
     const proyectlist = DataProyects.map( DP => {
         return(
-          <Cproyects 
+          <SubCardProyect 
           img = {DP.Img[0].D} 
           NameP = {DP.NameP}
           Description = {DP.Descripcion}
           id = {DP.id}
+          LinkDeploy = {DP.LinkDeploy}
+          LinkGithud = {DP.LinkGithud}
            />
         )
       });
 
       const proyectlist2 = DataProyects2.map( DP => {
         return(
-          <Cproyects 
+          <SubCardProyect 
           img = {DP.Img[0].D} 
           NameP = {DP.NameP}
           Description = {DP.Descripcion}
           id = {DP.id}
+          LinkDeploy = {DP.LinkDeploy}
+          LinkGithud = {DP.LinkGithud}
            />
         )
       });
