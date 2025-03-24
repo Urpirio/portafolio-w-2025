@@ -23,6 +23,8 @@ const DataProyects2 = [
             Descripcion: 'Send a letter to your favorite person.',
             id: 'P1',
             Boleano: false,
+            LinkDeploy: 'https://g4-14-febrero.vercel.app/',
+            LinkGithud: 'https://github.com/Urpirio/G4-14Febrero',
     
    },
    {
@@ -38,6 +40,8 @@ const DataProyects2 = [
     Descripcion: `It's the same.`,
     id: 'P2',
     Boleano: false,
+    LinkDeploy: 'https://clon-login-facebook.vercel.app/',
+    LinkGithud: 'https://github.com/Urpirio/Clon-login-facebook',
 
 },
 {
@@ -53,6 +57,8 @@ const DataProyects2 = [
     Descripcion: 'For the Dragon Ball community to unite.',
     id: 'P3',
     Boleano: false,
+    LinkDeploy: 'https://urpirio.github.io/DBFPAGE/',
+    LinkGithud: 'https://github.com/Urpirio/DBFPAGE',
 
 },
 {
@@ -68,6 +74,8 @@ const DataProyects2 = [
     Descripcion: 'My first page using react.',
     id: 'P4',
     Boleano: false,
+    LinkDeploy: 'https://prototype-react-page.vercel.app/',
+    LinkGithud: 'https://github.com/Urpirio/Prototype-react-page',
 
 },
 {
@@ -83,6 +91,8 @@ const DataProyects2 = [
     Descripcion: 'Only Html, Css and JavaScript.',
     id: 'P5',
     Boleano: false,
+    LinkDeploy: 'https://urpirio.github.io/Prueba-Tecnica-Html-Css/',
+    LinkGithud: 'https://github.com/Urpirio/Prueba-Tecnica-Html-Css',
 
 },
 {
@@ -98,6 +108,8 @@ const DataProyects2 = [
     Descripcion: 'Phase 1 of the calculator.',
     id: 'P6',
     Boleano: false,
+    LinkDeploy: 'https://urpirio.github.io/calculadora-cientifica/',
+    LinkGithud: 'https://github.com/Urpirio/calculadora-cientifica',
 
 },
 ]
