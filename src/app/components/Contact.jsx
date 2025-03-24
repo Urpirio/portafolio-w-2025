@@ -4,12 +4,11 @@ import React, { Suspense } from 'react';
 import LinkMyContact from '../func/LinkMyContact';
 import ValueInputHome from '../func/Email/ValueInputHome';
 import SendtoVerifyEmail from '../func/Email/SendtoVerifyEmail';
-import SendtoSoport from '../func/Email/SendtoSoport';
 
 export default function Contact() {
 
   return (
-    <section className='flex flex-col gap-10 p-10' id='Contact'>
+    <section className='flex flex-col gap-10 p-10 transition-all duration-200 ' id='Contact'>
         <div className='flex flex-col items-center justify-center'>
             <div className='flex flex-col items-center gap-2'>
                 <h2 className='text-4xl'>Contact</h2>
@@ -19,7 +18,7 @@ export default function Contact() {
                 <span className='flex text-[20px] text-center'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
             </div>
         </div>
-        <div className='flex flex-wrap justify-center items-center sm:justify-around w-[100%] gap-10'>
+        <div className='flex flex-wrap justify-center items-center sm:justify-around w-[100%] gap-10 transition-all duration-200'>
             <form action="" onSubmit={(e)=>{e.preventDefault(); SendtoVerifyEmail() }} className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl' id='FormHome'>
                 <div id='F1'>
                     <h2 className='text-[25px] font-semibold text-green-900'>Send me a message</h2>
