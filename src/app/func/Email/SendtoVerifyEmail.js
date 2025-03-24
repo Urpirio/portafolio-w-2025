@@ -1,14 +1,18 @@
 import SendtoSoport from "./SendtoSoport";
 import SendtoUser from "./SendtoUser";
+import HiddenContainerInput from "./Subfunc/HiddenContainerInput";
+import Loading from "./Subfunc/Loading";
+import ShowContainerInput from "./Subfunc/ShowContainerInput";
 import { EmailFormHome } from "./ValueInputHome";
 
 const SendtoVerifyEmail = async () => {
 
-   
-
+    HiddenContainerInput();  //funcion que desaparece los contenedores de los input.
+    Loading();
 
     const CodigotoVerify = Math.floor(Math.random() * (999999 - 100000  + 1) + 100000);
-    const res = await fetch('/api/sendVerify',{
+
+    fetch('/api/sendVerify',{
         method: 'POST',
         body: JSON.stringify({
             Email: EmailFormHome,
@@ -16,11 +20,9 @@ const SendtoVerifyEmail = async () => {
 
         })
     }).then(()=>{
-        for(let x = 1; x < 8 ; x++){
-            document.getElementById(`F${x}`).style.display = 'none';
-        };
-        
-    
+
+        Loading(false);
+
         const divtitle = document.createElement('div');
         const h3 = document.createElement('h3');
         h3.style.fontSize = '20px';
@@ -65,8 +67,8 @@ const SendtoVerifyEmail = async () => {
         btn1.addEventListener('click',()=>{
     
             if(InputCode.value == CodigotoVerify){
-                SendtoUser()
-                SendtoSoport()
+                SendtoUser();
+                SendtoSoport();
                 divbtns.remove();
                 divInput.remove();
                 divtitle.remove();
@@ -100,10 +102,7 @@ const SendtoVerifyEmail = async () => {
                 });
                 BtnSend.addEventListener('click',()=>{
                     divSend.remove();
-                    for(let x = 1; x < 8 ; x++){
-                        document.getElementById(`F${x}`).style.display = 'flex';
-    
-                    };
+                    ShowContainerInput();//despliega el formulario devuelta.
                     for(let x = 1; x < 6 ; x++){
                         document.querySelector(`.InputHome${x}`).value = '';
                     };
@@ -138,9 +137,7 @@ const SendtoVerifyEmail = async () => {
             divInput.remove();
             divbtns.remove();
             divtitle.remove();
-            for(let x = 1; x < 8 ; x++){
-                document.getElementById(`F${x}`).style.display = 'flex';
-            };
+            ShowContainerInput();//despliegue del formulario.
         });
         
     
@@ -150,7 +147,7 @@ const SendtoVerifyEmail = async () => {
     }
     ).catch(
         (error)=>{
-
+            console.error(error, 'tenemos un error');
         }
     )
     
