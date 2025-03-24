@@ -35,6 +35,8 @@ const DataProyects = [
         Descripcion: 'Find your favorite Dragon Ball character.',
         id: 'P1',
         Boleano: false,
+        LinkDeploy: 'https://dragon-finder.vercel.app/',
+        LinkGithud: 'https://github.com/Urpirio/Dragon-Finder',
 
     },
     {
@@ -50,6 +52,8 @@ const DataProyects = [
         Descripcion: 'Explore what a person can do.',
         id: 'P2',
         Boleano: false,
+        LinkDeploy: 'https://clon-instagram.vercel.app/',
+        LinkGithud: 'https://github.com/Urpirio/Clon-Instagram',
 
     },
     {
@@ -65,6 +69,8 @@ const DataProyects = [
         Descripcion: 'Helping to improve services at GOB points on Rd.',
         id: 'P3',
         Boleano: false,
+        LinkDeploy: '',
+        LinkGithud: 'https://github.com/SemilleroDigitalIntro/Proyecto-Ogtic',
 
     },
     {
@@ -76,10 +82,12 @@ const DataProyects = [
                 D: Portafolio_web_2024_2,
             }
         ],
-        NameP: 'Portafolio-Web-2024',
+        NameP: 'Portfolio-Web-2024',
         Descripcion: 'Second website in React and second web portfolio.',
         id: 'P4',
         Boleano: false,
+        LinkDeploy: 'https://portafolio-web1.vercel.app/',
+        LinkGithud: 'https://github.com/Urpirio/Portafolio-Web-2024',
 
     },
     {
@@ -95,6 +103,8 @@ const DataProyects = [
         Descripcion: 'Page for a tourism company.',
         id: 'P5',
         Boleano: false,
+        LinkDeploy: 'https://travels-web-eight.vercel.app/',
+        LinkGithud: 'https://github.com/Urpirio/Travels-web',
 
     },
     {
@@ -110,6 +120,8 @@ const DataProyects = [
         Descripcion: 'My small business website',
         id: 'P6',
         Boleano: false,
+        LinkDeploy: 'https://urpirio.github.io/UrpSoft-2.0/',
+        LinkGithud: 'https://github.com/Urpirio/UrpSoft-2.0',
     },
     {
         Img: [
@@ -124,6 +136,8 @@ const DataProyects = [
         Descripcion: 'login to feel in space.',
         id: 'P7',
         Boleano: false,
+        LinkDeploy: 'https://urpirio.github.io/UrpSpace/',
+        LinkGithud: 'https://github.com/Urpirio/UrpSpace',
 
     },
     {
@@ -139,6 +153,8 @@ const DataProyects = [
         Descripcion: 'With this you can manage your projects',
         id: 'P8',
         Boleano: false,
+        LinkDeploy: '',
+        LinkGithud: 'https://github.com/Urpirio/List-Web',
 
     },
     {
@@ -154,6 +170,8 @@ const DataProyects = [
         Descripcion: 'My first big project.',
         id: 'P9',
         Boleano: false,
+        LinkDeploy: 'https://urpirio.github.io/Portafolio/Zpages/',
+        LinkGithud: 'https://github.com/Urpirio/Portafolio',
 
     },
     {
@@ -169,6 +187,8 @@ const DataProyects = [
         Descripcion: 'Clone of the official KFC website in Rd.',
         id: 'P10',
         Boleano: false,
+        LinkDeploy: 'https://urpirio.github.io/KFC-RD/',
+        LinkGithud: 'https://github.com/Urpirio/KFC-RD',
 
     },
     {
@@ -184,6 +204,8 @@ const DataProyects = [
         Descripcion: 'A simple page for a company.',
         id: 'P11',
         Boleano: false,
+        LinkDeploy: 'https://urpirio.github.io/Simply-Company/',
+        LinkGithud: 'https://github.com/Urpirio/Simply-Company/deployments',
 
     },
     {
@@ -199,6 +221,8 @@ const DataProyects = [
         Descripcion: 'A game to have fun.',
         id: 'P12',
         Boleano: false,
+        LinkDeploy: 'https://piedra-papel-tijeras-sage.vercel.app/',
+        LinkGithud: 'https://github.com/Urpirio/Piedra-Papel-Tijeras',
 
     },
 
