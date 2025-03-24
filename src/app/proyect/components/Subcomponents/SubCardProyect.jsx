@@ -5,9 +5,9 @@ import LinkDeploy from '../../func/LinkProyects/LinkDeploy';
 
 export default function SubCardProyect(props) {
   return (
-    <article className='flex flex-col gap-2 shadow-xl border-2 border-gray-300 rounded-xl' id={props.id}>
-        <div className=''>
-            <Image src={props.img} className='h-40 w-[100%] sm:w-100 sm:h-50 border-b-1 border-gray-200 rounded-t-xl'/>
+    <article className='flex flex-col gap-2 shadow-xl border-2 border-gray-300 rounded-xl ' id={props.id}>
+        <div className='w-80'>
+            <Image src={props.img} className='h-40 w-[100%] sm:w-80 sm:h-50 border-b-1 border-gray-200 rounded-t-xl'/>
         </div>
         <div className='p-2'>
             <h2 className='font-bold'>{props.NameP}</h2>
