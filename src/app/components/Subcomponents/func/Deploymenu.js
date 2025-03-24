@@ -1,13 +1,14 @@
 'use client';
 
 import DataNav from "../Data/DataNav";
+import BtnMenu from "./BtnMenu";
 
 const Deploymenu = (State) => {
     
 
     if(State == false){
+        document.getElementById('IconMenu').className = 'bx bx-x';
         const Header = document.getElementById('Header');
-        // Header.style.height = '100px';
         const Nav = document.createElement('nav');
         Nav.id = 'MovileNav';
         Nav.style.position = 'absolute';
@@ -30,7 +31,7 @@ const Deploymenu = (State) => {
             Span.style.fontWeight = '500';
 
             Span.addEventListener('click',()=>{
-                
+                BtnMenu();// llama devuelta a la funcion para cambiar su valor y asi cambiar la clase del icono
                 DataNav[x].Link();
                 document.getElementById('MovileNav').remove();
             });
@@ -46,6 +47,7 @@ const Deploymenu = (State) => {
         };
         document.getElementById('Header').append(Nav)
     }else{
+       document.getElementById('IconMenu').className = 'bx bx-menu';
        document.getElementById('MovileNav').remove();
     }
 
