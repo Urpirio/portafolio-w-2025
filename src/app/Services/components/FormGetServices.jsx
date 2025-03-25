@@ -6,7 +6,7 @@ import OffSelectServices from '../func/OffSelectServices';
 import MouseOverSelectServices from '../func/MouseOverSelectServices';
 import OffDeployForm from './Subcomponents/func/OffDeployForm';
 import SendForm from '../func/SendForm';
-// import MouseLeaveSelectServices from '../func/MouseLeaveSelectServices';
+import FormInputValueServices from '../func/FormInputValueServices';
 
 export default function FormGetServices() {
 
@@ -19,24 +19,24 @@ export default function FormGetServices() {
               <h2 className='text-3xl text-green-800 font-bold'>Get the service</h2>
             </div>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col'>{/* Name */}
               <label htmlFor="">Name</label>
-              <input className='border-1 border-gray-400 rounded-md outline-none h-10 p-2 ' type="text" name="" id="NameF" placeholder='Your name' required/>
+              <input onInput={FormInputValueServices} className='border-1 border-gray-400 rounded-md outline-none h-10 p-2 ' type="text"  id="NameF" placeholder='Your name' required/>
             </div>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col'>{/* Email */}
               <label htmlFor="">Email</label>
-              <input className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text" name="" id="EmailF" placeholder='Your Email' required/>
+              <input onInput={FormInputValueServices} className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text"  id="EmailF" placeholder='Your Email' required/>
             </div>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col'>{/* Phone number */}
               <label htmlFor="">Phone number</label>
-              <input className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text" name="" id="PnumberF" placeholder='Your phone number' required/>
+              <input onInput={FormInputValueServices} className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text"  id="PnumberF" placeholder='Your phone number' required/>
             </div>
 
             <div className='flex flex-col'>
               <label htmlFor="">Company</label>
-              <input className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text" name="" id="CompanyF" placeholder='Name of your company' required/>
+              <input onInput={FormInputValueServices} className='border-1 border-gray-400 rounded-md outline-none h-10 p-2' type="text"  id="CompanyF" placeholder='Name of your company' required/>
             </div>
 
             <div className='flex flex-col relative'>{/*Select services */}
@@ -51,8 +51,8 @@ export default function FormGetServices() {
             </div>
 
             <div className='flex flex-col'>
-              <label htmlFor="">Message</label>
-              <textarea className='border-1 border-gray-400 rounded-md outline-none p-2 resize-none' name="" id="AboutProyect" placeholder='Tell me about your proyect...' required></textarea>
+              <label htmlFor="">Message</label>{/*Messaje*/}
+              <textarea onInput={FormInputValueServices} className='border-1 border-gray-400 rounded-md outline-none p-2 resize-none'  id="AboutProyect" placeholder='Tell me about your proyect...' required></textarea>
             </div>
 
             <div className='w-[100%] flex flex-col gap-2 items-center justify-between'>
