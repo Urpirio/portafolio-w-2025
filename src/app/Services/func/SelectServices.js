@@ -1,6 +1,7 @@
 'use client';
 
 import DataCardServices from "../Data/DataCardServices";
+import FormInputValueServices from "./FormInputValueServices";
 
 let Show;
 let valueSelect;
@@ -29,6 +30,7 @@ const SelectServices = () => {
                 document.getElementById('selectServices').style.display = 'none';
                 document.getElementById('ArrowSelect').style.rotate = '0deg';
                 document.getElementById('selection').innerText = DataCardServices[x].ServiceName;
+                FormInputValueServices(DataCardServices[x].ServiceName);
                 valueSelect = x;
                 Show = true;
                 // document.getElementById(`S${x}`).remove();
@@ -77,6 +79,7 @@ const SelectServices = () => {
                 document.getElementById('selectServices').innerHTML = '';
                 document.getElementById('ArrowSelect').style.rotate = '0deg';
                 document.getElementById('selection').innerText = DataCardServices[x].ServiceName;
+                FormInputValueServices(DataCardServices[x].ServiceName);
                 valueSelect = x;
                 Show = true;
                 // document.getElementById(`S${x}`).remove();
