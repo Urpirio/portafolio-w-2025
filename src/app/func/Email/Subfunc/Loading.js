@@ -1,35 +1,35 @@
 const Loading = (Star = true) => {
     if(Star === true){
-        let ConditionLoading;
+        let IsLoading;
         const divLoading = document.createElement('div');
         divLoading.id = 'divLoading';
         divLoading.style.width = '100%';
         divLoading.style.display = 'flex';
         divLoading.style.justifyContent = 'center';
-        const Loading = document.createElement('span');
-        Loading.style.fontSize = '20px';
-        Loading.style.fontWeight = '600';
-        Loading.style.color = '#0d542b';
-        divLoading.append(Loading);
+        const spanLoading = document.createElement('span');
+        spanLoading.style.fontSize = '20px';
+        spanLoading.style.fontWeight = '600';
+        spanLoading.style.color = '#0d542b';
+        divLoading.append(spanLoading);
         
-        var LoadingFun = setInterval(()=>{
-            if(ConditionLoading == undefined){
-                Loading.innerText = 'Loading.';
-                ConditionLoading = 1;
+        var AnimeLoading = setInterval(()=>{
+            if(IsLoading == undefined){
+                spanLoading.innerText = 'Loading.';
+                IsLoading = 1;
     
-            }else if(ConditionLoading == 1){
-                Loading.innerText = 'Loading..';
-                ConditionLoading = 2;
+            }else if(IsLoading == 1){
+                spanLoading.innerText = 'Loading..';
+                IsLoading = 2;
     
             }else{
-                Loading.innerText = 'Loading...';
-                ConditionLoading = undefined;
+                spanLoading.innerText = 'Loading...';
+                IsLoading = undefined;
             }
         },300);
         document.getElementById('FormHome').append(divLoading);
     }else{
         document.getElementById('divLoading').remove();
-        LoadingFun = null;
+        AnimeLoading = null;
         
     };
 };
