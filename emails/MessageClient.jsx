@@ -9,12 +9,6 @@ export default function MessageClient(props) {
         <p>If you need to make any changes or have any questions, please don't hesitate to contact us.</p>
         <br />
         <p>Thank you for trusting UrpirioDev.</p>
-        <br />
-        <p>Sincerely, Human resources
-            Urpiriodev.online
-            Udev@urpiriodev.online
-            +1(829)-586-2316
-        </p>
     </div>
   )
-}
+};
