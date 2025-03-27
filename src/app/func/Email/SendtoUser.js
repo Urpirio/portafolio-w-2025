@@ -1,7 +1,7 @@
 import { EmailFormHome,NameFormHome } from "./ValueInputHome";
 
 const SendtoUser = async () => {
-    const res = await fetch('/api/sendUser',{
+    fetch('/api/sendUser',{
         method: 'POST',
         body: JSON.stringify({
             Email: EmailFormHome,
