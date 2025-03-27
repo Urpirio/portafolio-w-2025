@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
         </div>
         <div className='flex flex-wrap justify-center items-center sm:justify-around w-[100%] gap-10 transition-all duration-200'>
-            <form action="" onSubmit={(e)=>{e.preventDefault(); SendtoVerifyEmail() }} className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl' id='FormHome'>
+            <form action="" onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl' id='FormHome'>
                 <div id='F1'>
                     <h2 className='text-[25px] font-semibold text-green-900'>Send me a message</h2>
                 </div>
@@ -44,7 +44,7 @@ export default function Contact() {
                     <textarea onInput={ValueInputHome} className='h-20 p-1 outline-none border-1 resize-none border-gray-400 rounded-md InputHome5' id="aboutProyectFormHome" placeholder='Tell me about your project...' required></textarea>
                 </div>
                 <div id='F7'>
-                    <button className=' w-30 text-[18px] text-white font-bold border-1  p-1 rounded-md bg-green-500 cursor-pointer hover:opacity-75' type='submit'>Send</button>
+                    <button onClick={SendtoVerifyEmail} className=' w-30 text-[18px] text-white font-bold border-1  p-1 rounded-md bg-green-500 cursor-pointer hover:opacity-75' type='submit'>Send</button>
                 </div>
 
             </form>
