@@ -29,6 +29,7 @@ export default function EmailUdev(props) {
                 <Text className='font-bold text-xl'>Compañia</Text>
                 <Text className='text-[16px]'>{props.company}</Text>
               </Container>
+              
               <Container className='text-center'>
                 <Text className='font-bold text-xl'>Proyecto</Text>
                 <Text className='text-[15px]'>{props.message}</Text>
