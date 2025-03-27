@@ -143,9 +143,9 @@ const SendtoVerifyEmail = async () => {
     
         divbtns.append(btn1,btn2);
     
-        document.getElementById('FormHome').append(divtitle,divInput,divbtns)
-    }
-    ).catch(
+        document.getElementById('FormHome').append(divtitle,divInput,divbtns);
+        
+    }).catch(
         (error)=>{
             console.error(error, 'tenemos un error');
         }
