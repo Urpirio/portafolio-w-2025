@@ -19,16 +19,17 @@ const OffSelectServices = () => {
     const Filtro5 =  AboutProyect.value == '';
 
     if(MouseOverForm === true){
+        
         if(DeployIsCancel == true){
             document.getElementById('FormGetServices').style.display = 'none';
         }else{
             document.getElementById('FormGetServices').style.display = 'flex';
         }
     }else if(MouseOverForm === undefined){
+        
         if(((Filtro && Filtro2) && (Filtro3 && Filtro4)) && Filtro5){
             document.getElementById('FormGetServices').style.display = 'none';
         }else{
-            //Se debe colocar un modal de abvertencia.
         }
     }else{
         
