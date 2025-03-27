@@ -33,7 +33,7 @@ const OffDeployForm = () => {
             },100);
 
             for(let x = 0; x < DataCardServices.length; x++){
-                document.getElementById(`C${x}`).style.display = 'flex';
+                document.getElementById(`CardServices${x}`).style.display = 'flex';
             }; 
 
         }else{
@@ -48,7 +48,7 @@ const OffDeployForm = () => {
                 DeployIsCancel = true;
                 setTimeout(()=>{
                     DeployIsCancel = undefined;
-                },100);
+                },100); 
             }
     
         }else{
