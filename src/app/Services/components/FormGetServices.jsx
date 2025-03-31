@@ -11,7 +11,7 @@ import SendtoConfirmEmail from '../func/Email/SendtoConfirmEmail';
 export default function FormGetServices() {
 
   return (
-    <div onClick={OffSelectServices}  className='hidden flex-col items-center justify-center backdrop-blur-xs  absolute  h-screen w-screen ' id='FormGetServices'>
+    <div onClick={OffSelectServices}  className='hidden flex-col items-center justify-center backdrop-blur-xs  absolute w-screen' id='FormGetServices'>
 
           <form onMouseEnter={MouseOverSelectServices} onMouseLeave={MouseOverSelectServices} onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col gap-5  border-3 rounded-2xl bg-white border-green-500 p-5 min-w-80 w-[25%] ' id='ServicesForm'>
             
