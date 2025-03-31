@@ -11,7 +11,7 @@ const DeployForm = () => {
         FormGetServices.style.width = '80px';
         FormGetServices.style.borderRadius ='20px';
         for(let x = 0; x < DataCardServices.length; x++){
-            document.getElementById(`C${x}`).style.display = 'none';
+            document.getElementById(`CardServices${x}`).style.display = 'none';
         };
     }else{
         PageServices.style.padding = '200px'
