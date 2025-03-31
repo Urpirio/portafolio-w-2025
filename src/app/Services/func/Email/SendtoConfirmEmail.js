@@ -11,6 +11,7 @@ const SendtoConfirmEmail = async () => {
 
     HiddenContainerForm();
     LoadinFormServices();
+    
 
 
     const CodeVerify = Math.floor(Math.random() * (999999 - 100000  + 1) + 100000);
