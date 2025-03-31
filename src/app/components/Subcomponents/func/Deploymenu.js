@@ -15,7 +15,7 @@ const Deploymenu = (State) => {
         Nav.style.display = 'flex';
         Nav.style.justifyContent = 'space-around';
         Nav.style.alignItems = 'center';
-        Nav.style.marginTop = '110px';
+        Nav.style.marginTop = '50px';
         Nav.style.height = '50px';
         Nav.style.border = '1px solid gray';
         Nav.style.borderRadius = '20px';
