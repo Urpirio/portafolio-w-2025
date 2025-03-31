@@ -7,16 +7,11 @@ import HoverNav from '../func/HoverNav';
 import HoverNav2 from '../func/HoverNav2';
 import HoverNav3 from '../func/HoverNav3';
 import HoverNav4 from '../func/HoverNav4';
-import LinkLinkedin from '../func/LinkLinkedin';
-import LinkInstagram from '../func/LinkInstagram';
-import LinkGithud from '../func/LinkGithud';
 import Linkproyect from '../func/LinkProyects';
 import { usePathname } from 'next/navigation';
 import LinkAboutMe from '../func/LinkAboutme';
-import LinkContact from '../func/LinkContact';
 import LinkHome from '../func/LinkHome';
 import LinkServices from '../func/LinkServices';
-import ChargeDescription from '../Services/func/ChargeDescription';
 import ContactAndMenu from './Subcomponents/ContactAndMenu';
 
 export default function Header() {
