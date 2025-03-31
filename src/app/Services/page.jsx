@@ -11,10 +11,10 @@ export default function Services() {
   
 
   return (
-    <section className='flex flex-col justify-center relative items-center p-2 sm:p-30' id='PageServices'>
+    <main className='flex flex-col justify-center relative items-center p-2 sm:p-30 ' id='PageServices'>
         <NamePage/>   
         <FormGetServices/>
         <ContainerCardServices/>
-    </section>
+    </main>
   )
 }
