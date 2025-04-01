@@ -3,7 +3,7 @@ import SendtoUser from "../SendtoUser";
 import { ButtonOkay_Click, ButtonOkay_MouseEnter, ButtonOkay_MouseLeave } from "./ButtonOkay";
 
 export const ButtonConfirm_Click = (InputValue,CodeVerify) => {
-    alert('jj')
+
     if(InputValue == CodeVerify){
         SendtoSoport();
         SendtoUser();
