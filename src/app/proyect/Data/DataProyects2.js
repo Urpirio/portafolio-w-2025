@@ -7,6 +7,10 @@ import FirstPageReact2 from './../../../../public/Img-Proyects2/FirstPageReact2.
 import TechnicalTestIntro from './../../../../public/Img-Proyects2/TechnicalTestIntro.png';
 import TechnicalTestIntro2 from './../../../../public/Img-Proyects2/TechnicalTestIntro2.png';
 import ScienceC from './../../../../public/Img-Proyects2/ScienceC.png';
+import TeslaPage from '@/../public/SomeTopProyects/TeslaPage.png';
+import TeslaPage2 from '@/../public/SomeTopProyects/TeslaPage.png';
+import JuxelTech from "@/../public/SomeTopProyects/JuxelTech.png";
+import JuxelTech2 from "@/../public/SomeTopProyects/JuxelTech2.png";
 
 
 const DataProyects2 = [
@@ -110,6 +114,40 @@ const DataProyects2 = [
     Boleano: false,
     LinkDeploy: 'https://urpirio.github.io/calculadora-cientifica/',
     LinkGithud: 'https://github.com/Urpirio/calculadora-cientifica',
+
+},
+{
+    Img: [
+        {
+            D: TeslaPage,
+        },
+        {
+            D: TeslaPage2,
+        }
+    ],
+    NameP: 'Clon Tesla',
+    Descripcion: 'Clone of the official tesla website.',
+    id: 'P7',
+    Boleano: false,
+    LinkDeploy: 'https://clontesla.vercel.app/',
+    LinkGithud: 'https://github.com/Urpirio/clontesla',
+
+},
+{
+    Img: [
+        {
+            D: JuxelTech,
+        },
+        {
+            D: JuxelTech2,
+        }
+    ],
+    NameP: 'Juxel Tech(In development)',
+    Descripcion: 'Page for a technology company.',
+    id: 'P8',
+    Boleano: false,
+    LinkDeploy: 'https://juxeltech.com/',
+    LinkGithud: 'https://github.com/Urpirio/juxeltech',
 
 },
 ]
