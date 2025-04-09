@@ -1,21 +1,19 @@
-import DragonFinder from './../../../public/Img-Proyects/DragonFinder-2.png';
-import DragonFinder2 from './../../../public/Img-Proyects/DragonFinder.png';
+// import DragonFinder from './../../../public/Img-Proyects/DragonFinder-2.png';
+// import DragonFinder2 from './../../../public/Img-Proyects/DragonFinder.png';
 import clon_Instagram from './../../../public/Img-Proyects/Clon-Instagram.png';
 import clon_Instagram2 from './../../../public/Img-Proyects/Clon-Instagram-2.png';
 import GobHome from './../../../public/Img-Proyects/GOBHome.png';
 import GobHome2 from './../../../public/Img-Proyects/GOBHome2.png';
 import Portafolio_web_2024  from './../../../public/Img-Proyects/PortafolioWeb-2024.png';
 import Portafolio_web_2024_2  from './../../../public/Img-Proyects/PortafolioWeb-2024 (2).png';
-import travelPage from './../../../public/Img-Proyects/TravelPage.png';
-import travelPage2 from './../../../public/Img-Proyects/TravelPage-2.png';
+// import travelPage from './../../../public/Img-Proyects/TravelPage.png';
+// import travelPage2 from './../../../public/Img-Proyects/TravelPage-2.png';
 import Urpsoft from './../../../public/Img-Proyects/Urpsoft.png';
 import Urpsoft2 from './../../../public/Img-Proyects/Urpsoft2.png';
-import Urpspace from './../../../public/Img-Proyects/UrpSpace.png';
-import ListWeb from './../../../public/Img-Proyects/ListWeb.png';
-import ListWeb2 from './../../../public/Img-Proyects/ListWeb2.png';
-import FirstPortafolio from './../../../public/Img-Proyects/FirstPortafolio.png';
-import FirstPortafolio2 from './../../../public/Img-Proyects/FirstPortafolio2.png';
-
+import JuxelTech from "@/../public/SomeTopProyects/JuxelTech.png";
+import JuxelTech2 from "@/../public/SomeTopProyects/JuxelTech2.png";
+import TeslaPage from '@/../public/SomeTopProyects/TeslaPage.png';
+import TeslaPage2 from '@/../public/SomeTopProyects/TeslaPage.png';
 
 
 
@@ -23,15 +21,15 @@ const DataTopProyects = [
     {
         Img: [
             {
-                D: DragonFinder,
+                D: JuxelTech,
             },
             {
-                D: DragonFinder2,
+                D: JuxelTech2,
             }
         ],
-        NameP: 'Dragon Finder',
+        NameP: 'Juxel Tech',
         Descripcion: '',
-        Link: 'https://dragon-finder.vercel.app/',
+        Link: 'https://juxeltech.com/',
 
     },
     {
@@ -79,15 +77,15 @@ const DataTopProyects = [
     {
         Img: [
             {
-                D: travelPage,
+                D: TeslaPage,
             },
             {
-                D: travelPage2,
+                D: TeslaPage2,
             }
         ],
-        NameP: 'Travel Page',
+        NameP: 'Clon Tesla',
         Descripcion: '',
-        Link: 'https://travels-web-eight.vercel.app/',
+        Link: 'https://clontesla.vercel.app/',
 
     },
     {
