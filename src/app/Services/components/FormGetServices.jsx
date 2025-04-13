@@ -11,7 +11,7 @@ import SendtoConfirmEmail from '../func/Email/SendtoConfirmEmail';
 export default function FormGetServices() {
 
   return (
-    <div onClick={OffSelectServices}  className='hidden flex-col items-center justify-center backdrop-blur-xs  absolute sm:h-screen w-screen' id='FormGetServices'>
+    <div onClick={OffSelectServices}  className='hidden flex-col items-center justify-center backdrop-blur-xs  absolute sm:h-screen w-screen z-30' id='FormGetServices'>
 
           <form onMouseEnter={MouseOverSelectServices} onMouseLeave={MouseOverSelectServices} onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col gap-5  border-3 rounded-2xl bg-white border-green-500 p-5 min-w-80 w-[25%] ' id='ServicesForm'>
             
@@ -56,8 +56,8 @@ export default function FormGetServices() {
             </div>
 
             <div className='w-[100%] flex flex-col gap-2 items-center justify-between' id='SF8'>
-              <button onClick={SendtoConfirmEmail} className='border-1 rounded-xl bg-green-500 shadow-xs p-1 text-white font-semibold w-50' type='submit'>Send</button>
-              <button onClick={OffDeployForm} className='border-1 border-gray-300 rounded-xl bg-gray-200 shadow-xs p-1 text-gray-600 font-semibold w-30'>Cancel</button>
+              <button onClick={SendtoConfirmEmail} className='border-1 rounded-xl bg-green-500 shadow-xs p-1 text-white font-semibold w-50 hover:opacity-75 transition-all duration-300 cursor-pointer' type='submit'>Send</button>
+              <button onClick={OffDeployForm} className='border-1 border-gray-300 rounded-xl bg-gray-200 shadow-xs p-1 text-gray-600 font-semibold w-30 hover:opacity-75 transition-all duration-300 cursor-pointer'>Cancel</button>
             </div>
             
           </form>
