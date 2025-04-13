@@ -27,6 +27,7 @@ const DataTopProyects = [
                 D: JuxelTech2,
             }
         ],
+        Key: 1 ,
         NameP: 'Juxel Tech',
         Descripcion: '',
         Link: 'https://juxeltech.com/',
@@ -41,6 +42,7 @@ const DataTopProyects = [
                 D: clon_Instagram2,
             }
         ],
+        Key: 2 ,
         NameP: 'Clon Instagram (In development)',
         Descripcion: '',
         Link: 'https://clon-instagram.vercel.app/',
@@ -55,6 +57,7 @@ const DataTopProyects = [
                 D: GobHome2,
             }
         ],
+        Key: 3 ,
         NameP: 'Gob.do',
         Descripcion: '',
         Link: 'https://github.com/SemilleroDigitalIntro/Proyecto-Ogtic',
@@ -69,6 +72,7 @@ const DataTopProyects = [
                 D: Portafolio_web_2024_2,
             }
         ],
+        Key: 4 ,
         NameP: 'Portafolio-Web-2024',
         Descripcion: '',
         Link: 'https://portafolio-web1.vercel.app/',
@@ -83,6 +87,7 @@ const DataTopProyects = [
                 D: TeslaPage2,
             }
         ],
+        Key: 5 ,
         NameP: 'Clon Tesla',
         Descripcion: '',
         Link: 'https://clontesla.vercel.app/',
@@ -97,6 +102,7 @@ const DataTopProyects = [
                 D: Urpsoft2,
             }
         ],
+        Key: 6 ,
         NameP: 'Urpsoft',
         Descripcion: '',
         Link: 'https://urpirio.github.io/UrpSoft-2.0/',
