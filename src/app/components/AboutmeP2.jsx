@@ -1,15 +1,8 @@
-import React from 'react';
-import SubAboutmeP2 from './Subcomponents/subAboutmeP2';
-import DataAboutme from '../Data/DataAboutme';
 import LinkContact from '../func/LinkContact';
+import MySkills from './Subcomponents/MySkills';
 
 export default function AboutmeP2() {
 
-    const Skill_List = DataAboutme.map( DA =>{
-        return(
-            <SubAboutmeP2 Typebtn = {DA.Type}/>
-        );
-    })
 
   return (
     <section className='flex flex-wrap  sm:justify-around  ' >
@@ -42,7 +35,7 @@ export default function AboutmeP2() {
                 <h2 className='font-bold text-2xl m-0' >My Skills</h2>
             </div>
             <div className='flex flex-wrap items-center gap-2 w-[100%]'>
-                {Skill_List}
+                <MySkills/>
             </div>
         </div>
     </section>
