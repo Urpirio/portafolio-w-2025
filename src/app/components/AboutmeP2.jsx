@@ -27,7 +27,7 @@ export default function AboutmeP2() {
                 </p>
             </div>
             <div>
-                <button onClick={LinkContact} className='flex items-center justify-center h-10 border-1 w-50 rounded-xl bg-green-500 text-white font-bold shadow-2xl transition-all duration-300 cursor-pointer hover:opacity-80'>Get in Touch!</button>
+                <button name='Get in Touch' onClick={LinkContact} className='flex items-center justify-center h-10 border-1 w-50 rounded-xl bg-green-500 text-white font-bold shadow-2xl transition-all duration-300 cursor-pointer hover:opacity-80'>Get in Touch!</button>
             </div>
         </div>
         <div className=' flex flex-col items-center min-w-90 w-[40%] max-w-180  p-5 gap-[22]'>
