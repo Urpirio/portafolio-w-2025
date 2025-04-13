@@ -1,5 +1,7 @@
 'use client';
-import React from 'react';
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { IoLogoGithub } from "react-icons/io";
 import Image from 'next/image';
 import Linkproyect from '../func/LinkProyects';
 import PerfilDev from '../../../public/image.png';
@@ -17,9 +19,9 @@ export default function Section1() {
   return (
     <section className=' flex flex-col  items-start  gap-10 p-5 sm:p-20 bg-white  relative z-0'>
         <div className='absolute hidden flex-col rounded-2xl border-gray-300 border-1 gap-2 p-1 bg-white shadow-2xl shadow-green-100 sm:flex'>
-            <i onClick={LinkLinkedin} className='bx bxl-linkedin-square text-5xl text-green-500 cursor-pointer transition-all duration-300 hover:opacity-75'></i>
-            <i onClick={LinkGithud} className='bx bxl-github text-5xl text-green-500 cursor-pointer transition-all duration-300 hover:opacity-75' ></i>
-            <i onClick={LinkInstagram} className='bx bxl-instagram-alt text-5xl text-green-500 cursor-pointer transform-all duration-300 hover:opacity-75' ></i>
+            <FaLinkedin onClick={LinkLinkedin} className='bx bxl-linkedin-square text-5xl text-green-500 cursor-pointer transition-all duration-300 hover:opacity-75'/>
+            <IoLogoGithub onClick={LinkGithud} className='bx bxl-github text-5xl text-green-500 cursor-pointer transition-all duration-300 hover:opacity-75' />
+            <RiInstagramFill onClick={LinkInstagram} className='bx bxl-instagram-alt text-5xl text-green-500 cursor-pointer transform-all duration-300 hover:opacity-75' />
         </div>
     <div className='w-[100%] flex justify-center items-center'>
         <Image src={PerfilDev} alt='Foto del Desarrollador' className='h-80 min-w-80 w-[100%] max-w-80 rounded-[100%] '/>
