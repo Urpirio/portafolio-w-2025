@@ -1,6 +1,5 @@
 'use client';
-
-import React from 'react';
+import { IoIosArrowForward } from "react-icons/io";
 import { usePathname } from 'next/navigation';
 import DataProyectsPage from '../../Data/DataProyectsPage';
 
@@ -22,7 +21,7 @@ export default function BtnNextPage() {
     <div>
          <button onClick={Direction} className={`h-6 w-6 flex justify-center items-center border-1  rounded-xs shadow-xl cursor-pointer transition-all duration-200 hover:opacity-75 
             ${path2 ? 'bg-gray-200 border-gray-200 text-gray-600' : 'bg-green-500 text-white' }`} id='NextProyect'>
-            <i class='bx bx-chevron-right'></i>
+            <IoIosArrowForward/>
         </button>
     </div>
   )
