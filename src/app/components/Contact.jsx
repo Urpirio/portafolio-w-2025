@@ -20,32 +20,32 @@ export default function Contact() {
             </div>
         </div>
         <div className='flex flex-wrap justify-center items-center sm:justify-around w-[100%] gap-10 transition-all duration-200'>
-            <form action="" onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl' id='FormHome'>
+            <form  onSubmit={(e)=>{e.preventDefault()}} className='flex flex-col w-[30%] min-w-80  gap-2 p-10 border-2 border-green-500  shadow-xl rounded-2xl' id='FormHome'>
                 <div id='F1'>
                     <h2 className='text-[25px] font-semibold text-green-900'>Send me a message</h2>
                 </div>
                 <div className='flex flex-col' id='F2'>
-                    <label htmlFor="">Name</label>
+                    <label htmlFor="nameFormHome">Name</label>
                     <input onInput={ValueInputHome} className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md  InputHome1' type="text" id='nameFormHome' placeholder='Your name' required/>
                 </div>
                 <div className='flex flex-col' id='F3'>
-                    <label htmlFor="">Email</label>
+                    <label htmlFor="emailFormHome">Email</label>
                     <input onInput={ValueInputHome} className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md InputHome2' type="email" id='emailFormHome' placeholder='Your email' required/>
                 </div>
                 <div className='flex flex-col' id='F4'>
-                    <label htmlFor="">Phone number</label>
+                    <label htmlFor="numberFormHome">Phone number</label>
                     <input onInput={ValueInputHome} className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md InputHome3' type="number" id='numberFormHome' placeholder='Your number' required/>
                 </div>
                 <div className='flex flex-col' id='F5'>
-                    <label htmlFor="">Company</label>
+                    <label htmlFor="companyFormHome">Company</label>
                     <input onInput={ValueInputHome} className='h-10 p-1 outline-none border-1 border-gray-400 rounded-md InputHome4' type="text" id='companyFormHome' placeholder='Name of your company' required/>
                 </div>
                 <div className='flex flex-col' id='F6'>
-                    <label htmlFor="">Message</label>
+                    <label htmlFor="aboutProyectFormHome">Message</label>
                     <textarea onInput={ValueInputHome} className='h-20 p-1 outline-none border-1 resize-none border-gray-400 rounded-md InputHome5' id="aboutProyectFormHome" placeholder='Tell me about your project...' required></textarea>
                 </div>
                 <div id='F7'>
-                    <button onClick={SendtoVerifyEmail} className=' w-30 text-[18px] text-white font-bold border-1  p-1 rounded-md bg-green-500 cursor-pointer hover:opacity-75' type='submit'>Send</button>
+                    <button onClick={SendtoVerifyEmail} name="Send" className=' w-30 text-[18px] text-white font-bold border-1  p-1 rounded-md bg-green-500 cursor-pointer hover:opacity-75' type='submit'>Send</button>
                 </div>
 
             </form>
