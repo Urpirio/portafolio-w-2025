@@ -1,6 +1,7 @@
 'use client';
 
-import React, { Suspense } from 'react';
+import { MdEmail } from "react-icons/md";
+import { RiWhatsappFill } from "react-icons/ri";
 import LinkMyContact from '../func/LinkMyContact';
 import ValueInputHome from '../func/Email/ValueInputHome';
 import SendtoVerifyEmail from '../func/Email/SendtoVerifyEmail';
@@ -51,11 +52,12 @@ export default function Contact() {
 
             <div className='flex flex-col justify-center border-2 border-green-500 shadow-2xl bg-white rounded-2xl p-5 gap-10'>
                 <div onClick={()=>{LinkMyContact(false)}} className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
-                    <i className='bx bxl-whatsapp  text-5xl text-white rounded-[100%] h-14 w-14 bg-green-400' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}></i>
+                    
+                    <RiWhatsappFill className='text-5xl  rounded-[100%] text-green-500'/>
                     <span  className=' text-[18px] text-green-500 font-semibold'>+1(829)-586-2316</span>
                 </div>
                 <div onClick={()=>{LinkMyContact(true)}} className='flex flex-col items-center transition-all duration-200 cursor-pointer hover:scale-110'>
-                    <i className='bx bxs-envelope text-green-500 text-5xl' ></i>
+                    <MdEmail className='text-green-500 text-5xl' />
                     <span  className='text-green-500 text-[18px] font-semibold'>Urpiriojunior@gmail.com</span>
                 </div>
             </div>
