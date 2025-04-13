@@ -19,7 +19,7 @@ export default function Header() {
     const pathBoleano = usePathname();
 
   return (
-    <header className='flex justify-center  p-2  bg-white border-1 border-gray-100 shadow-green-50 shadow-2xl sticky  top-[0] z-3' id='Header'>
+    <header className='flex justify-center  p-2  bg-white border-1 border-gray-100 shadow-green-50 shadow-2xl sticky  top-[0] z-50' id='Header'>
             <div onClick={LinkHome} className='flex justify-start flex-grow basis-0 items-center cursor-pointer'>
                 <Image src={Logo} alt='logo' className='h-10 w-10'/>
                  <h1 className='font-bold text-2xl'>Dev</h1>
