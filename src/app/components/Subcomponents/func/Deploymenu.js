@@ -1,14 +1,18 @@
 'use client';
-
 import DataNav from "../Data/DataNav";
-import BtnMenu from "./BtnMenu";
 
-const Deploymenu = (State) => {
+export let IsDeployMovilMenu = [
+    {
+        Boolean: false,
+    }
+];
+
+export const Deploymenu = () => {
     
 
-    if(State == false){
-        document.getElementById('IconMenu').className = 'bx bx-x';
-        const Header = document.getElementById('Header');
+    if(IsDeployMovilMenu[0].Boolean === false){
+
+        IsDeployMovilMenu[0].Boolean = true;
         const Nav = document.createElement('nav');
         Nav.id = 'MovileNav';
         Nav.style.position = 'absolute';
@@ -31,7 +35,6 @@ const Deploymenu = (State) => {
             Span.style.fontWeight = '500';
 
             Span.addEventListener('click',()=>{
-                BtnMenu();// llama devuelta a la funcion para cambiar su valor y asi cambiar la clase del icono
                 DataNav[x].Link();
                 document.getElementById('MovileNav').remove();
             });
@@ -45,11 +48,23 @@ const Deploymenu = (State) => {
 
             
         };
-        document.getElementById('Header').append(Nav)
+        document.getElementById('Header').append(Nav);
+
     }else{
-       document.getElementById('IconMenu').className = 'bx bx-menu';
-       document.getElementById('MovileNav').remove();
-    }
+
+            IsDeployMovilMenu[0].Boolean = false;
+            document.getElementById('MovileNav').remove();
+
+    };
+
+
 
 };
-export default Deploymenu;
+
+// export const BtnMenu = () => {
+//     if(IsDeployMovilMenu[0].Boolean === false){
+//       return <TfiMenu/>
+//     }
+//       return <IoMdClose/>
+
+//   };
