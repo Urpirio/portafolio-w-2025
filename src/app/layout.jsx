@@ -1,9 +1,8 @@
 'use client';
 import '../styles/Globals.css';
-import Logo from '../../public/LogoPortafolio.png';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import { Deploymenu } from './components/Subcomponents/func/Deploymenu';
 
 
 export default function Layout({children}) {
@@ -12,7 +11,6 @@ export default function Layout({children}) {
 
     <html lang="en">
     <head>
-        {/* <meta charset="UTF-8" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="I’m Urpirio Junior Moreno Vargas, a Full Stack Developer with 
         over a year of experience in web development. I use technologies like React, Node.js, and MySQL
@@ -20,7 +18,7 @@ export default function Layout({children}) {
         get in touch to collaborate." />
         <title>UrpirioDev</title>
     </head>
-    <body>
+    <body onTouchMove={()=>{Deploymenu()}} >
       <Header/>
         {children}
       <Footer/>
