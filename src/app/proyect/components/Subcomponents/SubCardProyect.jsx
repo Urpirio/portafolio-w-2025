@@ -40,8 +40,8 @@ export const ProyectsPage2 = () => {
           <p className='text-[14px] text-gray-500'>{DP.Descripcion}</p>
          </div>
         <div className='w-[100%]  p-2 flex justify-center gap-2'>
-          <button name='See a proyect' onClick={()=>{LinkDeploy(DP.LinkDeploy)}} className=' h-10 w-[85%] border-1 rounded-xl bg-green-500 text-white shadow-2xs cursor-pointer transition-all duration-200 hover:opacity-75'>See project</button>
-          <button name='Go to My GitHud' onClick={()=>{LinkGithud(DP.LinkGithud)}} className='flex justify-center items-center h-10 w-[15%] border-1 rounded-xl bg-gray-900 text-white shadow-2xs cursor-pointer text-2xl transition-all duration-200 hover:opacity-75'><IoLogoGithub/></button>
+          <button name='See project' onClick={()=>{LinkDeploy(DP.LinkDeploy)}} className=' h-10 w-[85%] border-1 rounded-xl bg-green-500 text-white shadow-2xs cursor-pointer transition-all duration-200 hover:opacity-75'>See project</button>
+          <button name={'Go to My GitHud'} onClick={()=>{LinkGithud(DP.LinkGithud)}} className='flex justify-center items-center h-10 w-[15%] border-1 rounded-xl bg-gray-900 text-white shadow-2xs cursor-pointer text-2xl transition-all duration-200 hover:opacity-75'><IoLogoGithub/></button>
         </div>
     </article>
     )

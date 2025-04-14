@@ -7,7 +7,7 @@ export default function CardServices() {
 
    const Cards = DataCardServices.map( DCS => {
         return(
-            <article key={DCS.key} className=' w-[25%] min-w-80 flex flex-col items-center justify-center gap-5 p-5 border-1 border-gray-300 rounded-3xl bg-gray-50 shadow-xl hover:scale-105 transition-all duration-200' >
+            <article key={DCS.key} className=' w-[25%] min-w-80 flex flex-col items-center justify-center gap-5 p-5 border-1 border-gray-300 rounded-3xl bg-gray-50 shadow-xl hover:scale-105 transition-all duration-200' id={DCS.CardID} >
                 <div className='flex flex-col w-[100%] gap-2'>
                     <h2 className='m-0 text-3xl text-green-500 font-bold'>{DCS.ServiceName}</h2>
                     <p className='m-0 text-gray-500'>{DCS.DescriptionService}</p>
