@@ -7,10 +7,10 @@ export let IsDeployMovilMenu = [
     }
 ];
 
-export const Deploymenu = () => {
+export const Deploymenu = (State) => {
     
 
-    if(IsDeployMovilMenu[0].Boolean === false){
+    if(IsDeployMovilMenu[0].Boolean === false && State === true){
 
         IsDeployMovilMenu[0].Boolean = true;
         const Nav = document.createElement('nav');
@@ -50,11 +50,14 @@ export const Deploymenu = () => {
         };
         document.getElementById('Header').append(Nav);
 
-    }else{
+    }else if(IsDeployMovilMenu[0].Boolean === true && State === true){
 
             IsDeployMovilMenu[0].Boolean = false;
             document.getElementById('MovileNav').remove();
 
+    }else{
+        IsDeployMovilMenu[0].Boolean = false;
+        document.getElementById('MovileNav').remove();
     };
 
 

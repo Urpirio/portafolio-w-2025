@@ -21,12 +21,12 @@ export default function ContactAndMenu() {//componente del menu
     }else{
       setPrueba(<IoMdClose/>)
     }
-  })
+  });
 
   return (
     <div className='flex flex-grow basis-0 justify-end' >
         <button onClick={()=>{LinkContact(pathBoleano)}} className=' hidden sm:flex h-10 p-5  border-1 justify-center items-center rounded-2xl shadow-2xl shadow-green-200 bg-green-400 text-white font-bold cursor-pointer hover:opacity-75 '>Contact</button>
-        <button onClick={Deploymenu} className='text-4xl sm:hidden flex' id='MenuNav'>
+        <button onClick={()=>{Deploymenu(true)}} className='text-4xl sm:hidden flex' id='MenuNav'>
           {Prueba}
         </button>
     </div>

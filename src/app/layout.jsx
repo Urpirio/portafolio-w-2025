@@ -18,7 +18,7 @@ export default function Layout({children}) {
         get in touch to collaborate." />
         <title>UrpirioDev</title>
     </head>
-    <body onTouchMove={()=>{Deploymenu()}} >
+    <body onTouchMove={()=>{Deploymenu(false)}} >
       <Header/>
         {children}
       <Footer/>
