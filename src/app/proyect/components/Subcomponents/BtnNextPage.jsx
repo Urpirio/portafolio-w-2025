@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { usePathname } from 'next/navigation';
 import DataProyectsPage from '../../Data/DataProyectsPage';
 
-// let Direction;
+
 export default function BtnNextPage() {
     const Gpath = usePathname()
     const path = DataProyectsPage[0].LinkPage === Gpath;
