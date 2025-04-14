@@ -10,6 +10,8 @@ const DeployForm = () => {
         FormGetServices.style.position = 'relative';
         FormGetServices.style.width = '80px';
         FormGetServices.style.borderRadius ='20px';
+        FormGetServices.style.marginTop = '60px';
+        FormGetServices.style.marginBottom = '60px';
         for(let x = 0; x < DataCardServices.length; x++){
             document.getElementById(`CardServices${x}`).style.display = 'none';
         };
