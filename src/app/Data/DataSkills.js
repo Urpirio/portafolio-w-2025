@@ -54,4 +54,9 @@ export const DataSkills = [
         Type: 'Sass',
         Content: '',
     },
+    {
+        key: 12 ,
+        Type: 'Boostrap',
+        Content: '',
+    },
 ];
