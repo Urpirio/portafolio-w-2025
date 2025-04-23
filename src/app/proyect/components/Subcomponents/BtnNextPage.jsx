@@ -2,7 +2,7 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { usePathname } from 'next/navigation';
 import DataProyectsPage from '../../Data/DataProyectsPage';
-
+//Recordar trabajar esta parte
 
 export default function BtnNextPage() {
     const Gpath = usePathname()
