@@ -2,9 +2,10 @@ import React from 'react';
 import Section1 from './components/Section1';
 import Aboutme from './components/Aboutme';
 import AboutmeP2 from './components/AboutmeP2';
-import Proyects from './components/Proyects';
+import Proyects from './components/WebProyects';
 import TopProyects from './components/TopProyects';
 import Contact from './components/Contact';
+import MobileProyects from './components/MobileProyects';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
     <Section1/>
     <Aboutme/>
     <AboutmeP2/>
+    <MobileProyects/>
     <Proyects/>
     <TopProyects/>
     <Contact/>
