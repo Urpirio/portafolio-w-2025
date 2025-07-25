@@ -25,7 +25,7 @@ export default function ContactAndMenu() {//componente del menu
       }
     };
     IsDeploy();
-  })
+  },[])
 
   return (
     <div className='flex flex-grow basis-0 justify-end' >
