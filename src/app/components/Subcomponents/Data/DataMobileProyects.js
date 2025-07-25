@@ -8,10 +8,10 @@ export const DataMobileProyects = [
         Title:'Clon-ChatGpt',
         Image: ImgChatGpt,
     },
-    {
-        Title:'Digget-App',
-        Image: ImgDiggetApp,
-    },
+    // {
+    //     Title:'Digget-App',
+    //     Image: ImgDiggetApp,
+    // },
     {
         Title:'DI-2025',
         Image: ImgDI2025,
