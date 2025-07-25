@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../../public/LogoPortafolio.png';
 import HoverNav from '../func/HoverNav';
@@ -85,9 +86,9 @@ export default function Header({setDeployMenu,DeployMenu}) {
                     Services
                     {/* <div className='h-1 rounded-2xl' id='HoverContact'></div> */}
                 </div>
-                <button className="flex h-10 w-full p-5  border-1 justify-center items-center rounded-2xl shadow-2xl shadow-green-200 bg-green-500 text-white font-bold cursor-pointer hover:opacity-75 ">
+                <Link href={'#Contact'} className="flex h-10 w-full p-5  border-1 justify-center items-center rounded-2xl shadow-2xl shadow-green-200 bg-green-500 text-white font-bold cursor-pointer hover:opacity-75 ">
                     Contact
-                </button>
+                </Link>
             </div>
       </header>
   )
