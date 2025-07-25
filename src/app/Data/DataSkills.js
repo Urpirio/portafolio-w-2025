@@ -59,4 +59,14 @@ export const DataSkills = [
         Type: 'Boostrap',
         Content: '',
     },
+    {
+        key: 13 ,
+        Type: 'Kotlin',
+        Content: '',
+    },
+    {
+        key: 14 ,
+        Type: 'TypeScript',
+        Content: '',
+    },
 ];
