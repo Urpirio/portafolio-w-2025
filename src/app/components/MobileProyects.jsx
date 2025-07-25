@@ -13,7 +13,7 @@ export default function MobileProyects() {
       <div className="flex items-center p-5 sm:p-5 sm:justify-center gap-10 py-5 w-full overflow-scroll" id="TopProyect">
         {DataMobileProyects.map((D) => {
           return (
-            <article className="w-60 min-w-60  border rounded-2xl border-green-400 p-2 bg-gray-50 shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer ">
+            <article className="w-60 min-w-60  border rounded-2xl border-green-400 p-2 bg-gray-50 shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer ">
               <Image className="rounded-2xl" src={D?.Image} />
               <h2 className="text-center text-green-600 font-semibold py-2">{D.Title}</h2>
             </article>
