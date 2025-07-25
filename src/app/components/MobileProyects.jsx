@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { DataMobileProyects } from "./Subcomponents/Data/DataMobileProyects";
-import { Carousel } from "primereact/carousel";
 
 export default function MobileProyects() {
   return (
